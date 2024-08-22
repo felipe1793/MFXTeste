@@ -15,7 +15,7 @@
 **Se a matriz não for quadrada essa mensagem será exibida: "Como a matriz não quadrada não faz sentido ter diagonalPrincipal e diagonalSecundaria"**
 
 ### Manipulação de Data e Hora com JavaScript
-*Execute a função* `handleDateOperations("00/00/00", "00/00/00", 0, 0, 0)` *no console do seu navegador para recerber a diferença entre duas, adicionar dias a uma data, convertar a para outro fuso horario e formatar a data.*
+*Execute a função* `handleDateOperations("00/00/00", "00/00/00", 0, 0, 0)` *no console do seu navegador para recerber a diferença entre duas datas, adicionar dias a uma data, converter a para outro fuso horario podenddo utilizar os valores de 0 a 2 onde {0:"America/Sao_Paulo", 1:"Europe/Berlin", 2:"Egypt"} e formatar a data podenddo utilizar os valores de 0 a 2 onde {0:"pt-br", 1:"de-DE", 2:"ar-EG"}.*
 
 **Exemplos:**
 
