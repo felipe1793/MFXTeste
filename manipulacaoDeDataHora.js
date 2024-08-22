@@ -1,22 +1,13 @@
-let primeiro = "20/01/2024"
-let segundo = "27/08/2024"
-
-// primeiro = "25/04/2024"
-// segundo = "16/05/2024"
-
-// primeiro = "13/07/2024"
-// segundo = "10/08/2024"
-
-
 function handleDateOperations(primeiraData = "00/00/00", segundaData = "00/00/00", dias = 0, formatoData = 0, fusoHorario = 0) {
 
     // validação de entradas
     if (typeof (primeiraData) !== "string" || typeof (segundaData) !== "string") {
         console.log(`data incorreta. exemplo: "20/01/2024"`)
-
     }
 
-
+    if(formatoData > 2 || fusoHorario > 2) {
+        console.log("formatoData ou fusoHorario estão incorretos")
+    }
 
     if (typeof (dias) !== "number") {
         console.log("dias deve ser um numero!")
@@ -134,5 +125,3 @@ function handleDateOperations(primeiraData = "00/00/00", segundaData = "00/00/00
         formattedDate: data.toLocaleDateString(listaData[formatoData])
     };
 }
-
-handleDateOperations("00/00/00", "00/00/00", 0, 3, 3).convertedTimeZone

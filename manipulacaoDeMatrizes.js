@@ -1,10 +1,3 @@
-let t = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8],
-    [9, 10, 11, 12],
-    [9, 10, 11, 12]
-]
-
 function processMatrix(matrix) {
     let maiorLinha = 0
     let qtdLinhas = matrix.length
@@ -63,11 +56,9 @@ function processMatrix(matrix) {
 
 
     return {
-        sumRows: [resLinha],
-        sumColumns: [resSomaColuna],
+        sumRows: resLinha,
+        sumColumns: resSomaColuna,
         diagonalPrincipal: diaPrincipal,
         diagonalSecundaria: diaSecundaria
     };
 }
-
-processMatrix(t).sumColumns
