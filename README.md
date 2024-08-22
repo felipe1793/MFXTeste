@@ -1,4 +1,4 @@
-# MFXTeste
+# Teste MFX
 ## Documentação
 
 ### Manipulação de Matrizes com JavaScript
